@@ -60,7 +60,7 @@ export const csTracks = [
       {
         id: 2,
         name: 'Freshman Spring',
-        courses: ['CSCI 13500', 'CSCI 15000'],
+        courses: ['CSCI 13500', 'MATH 15000'],
       },
       {
         id: 3,
@@ -86,27 +86,22 @@ export const csTracks = [
       {
         id: 7,
         name: 'Junior Fall',
-        courses: ['CSCI 33500', 'STAT 21300'],
+        courses: ['CSCI 26000', 'STAT 21300'],
       },
       {
         id: 8,
         name: 'Junior Spring',
-        courses: ['CSCI 34000', 'CS Elective'],
+        courses: ['CSCI 34000', 'CSCI 33500'],
       },
       {
         id: 9,
-        name: 'Senior Summer',
-        courses: ['CSCI 26000'],
+        name: 'Senior Fall',
+        courses: ['CS Elective', 'CS Elective'],
       },
       {
         id: 10,
-        name: 'Senior Fall',
-        courses: ['CSCI 49900', 'CS Elective'],
-      },
-      {
-        id: 11,
         name: 'Senior Spring',
-        courses: ['CS Elective', 'CS Elective'],
+        courses: ['CSCI 49900', 'CS Elective', 'CS Elective'],
       },
     ],
   },
@@ -124,7 +119,7 @@ export const csTracks = [
       {
         id: 2,
         name: 'Freshman Spring',
-        courses: ['CSCI 13500', 'CSCI 15500'],
+        courses: ['CSCI 13500', 'MATH 15500'],
       },
       {
         id: 3,
@@ -139,12 +134,12 @@ export const csTracks = [
       {
         id: 5,
         name: 'Junior Fall',
-        courses: ['CSCI 26500', 'STAT 21300'],
+        courses: ['CSCI 26000', 'STAT 21300'],
       },
       {
         id: 6,
         name: 'Junior Spring',
-        courses: ['CSCI 33500', 'CSCI 26000'],
+        courses: ['CSCI 33500', 'CSCI 26500'],
       },
       {
         id: 7,
@@ -197,25 +192,20 @@ export const csTracks = [
       {
         id: 7,
         name: 'Junior Fall',
-        courses: ['CSCI 33500', 'CS Elective'],
+        courses: ['CSCI 33500', 'CSCI 26000'],
       },
       {
         id: 8,
         name: 'Junior Spring',
-        courses: ['CSCI 26000', 'CS Elective'],
-      },
-      {
-        id: 9,
-        name: 'Senior Summer',
-        courses: ['CSCI 26000'],
-      },
-      {
-        id: 10,
-        name: 'Senior Fall',
         courses: ['CSCI 34000', 'CS Elective'],
       },
       {
-        id: 11,
+        id: 9,
+        name: 'Senior Fall',
+        courses: ['CS Elective', 'CS Elective'],
+      },
+      {
+        id: 10,
         name: 'Senior Spring',
         courses: ['CSCI 49900', 'CS Elective'],
       },
