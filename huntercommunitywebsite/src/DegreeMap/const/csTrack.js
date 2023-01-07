@@ -64,7 +64,7 @@ export const csTracks = [
       },
       {
         id: 3,
-        name: 'Sophomore Summer',
+        name: 'Freshman Summer',
         courses: ['CSCI 15000'],
       },
       {
@@ -80,7 +80,7 @@ export const csTracks = [
       },
       {
         id: 6,
-        name: 'Junior Summer',
+        name: 'Sophomore Summer',
         courses: ['CSCI 26500'],
       },
       {
@@ -170,7 +170,7 @@ export const csTracks = [
       },
       {
         id: 3,
-        name: 'Sophomore Summer',
+        name: 'Freshman Summer',
         courses: ['CSCI 15000'],
       },
       {
@@ -186,7 +186,7 @@ export const csTracks = [
       },
       {
         id: 6,
-        name: 'Junior Summer',
+        name: 'Sophomore Summer',
         courses: ['CSCI 26500'],
       },
       {
