@@ -6,9 +6,14 @@ import Internshipguide from './Internship Guide/internshipguide'
 import Resources from './Resoucres/resources'
 import Team from './Team/team'
 
+const setBGcolor = () => {
+  document.body.style = 'background: #FEE9FF;'
+}
+
 function App() {
   return (
     <div>
+      {setBGcolor()}
       <Header />
       <Routes>
         <Route path="/about" element={<About />}></Route>
