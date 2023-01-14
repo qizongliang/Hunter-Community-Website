@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './NavBar'
+import { Route, Routes } from 'react-router'
+import About from './About/about.js'
+import Degreemap from './DegreeMap/degreemap.js'
+import Internshipguide from './Internship Guide/internshipguide'
+import Resources from './Resoucres/resources'
+import Team from './Team/team'
+
+const setBGcolor = () => {
+  document.body.style = 'background: #FEE9FF;'
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {setBGcolor()}
+      <Header />
+      <Routes>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/degreemap" element={<Degreemap />}></Route>
+        <Route path="/internshipguide" element={<Internshipguide />}></Route>
+        <Route path="/resources" element={<Resources />}></Route>
+        <Route path="/team" element={<Team />}></Route>
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
